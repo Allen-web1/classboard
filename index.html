@@ -1,4 +1,29 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#246653"><title>우리 반 배움보드</title><link rel="stylesheet" href="style.css"></head>
-<body><header class="topbar"><a class="brand" href="./"><span class="brand-mark">b.</span><span id="brandName">우리 반 배움보드</span></a><span class="header-note">생각을 모으고, 배움을 나누다</span><button id="roleButton" class="button subtle">교사 입장</button></header>
-<main id="app"></main><div id="toast" role="status" aria-live="polite"></div><dialog id="modal"><div id="modalContent"></div></dialog><script src="config.js"></script><script src="core.js"></script><script src="app.js"></script></body></html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>인천고잔고등학교 JH's padlet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">JH</span>
+        <span id="brandName">인천고잔고등학교 JH's padlet</span>
+      </a>
+      <button id="roleButton" class="button subtle" type="button">교사 입장</button>
+    </div>
+  </header>
+  <main id="app"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modalTitle">
+    <div id="modalContent"></div>
+  </dialog>
+  <script src="config.js"></script>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
